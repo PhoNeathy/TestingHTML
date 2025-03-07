@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-family: system-ui;
+
+}
+
+.row {
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(237, 237, 237);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+.btn:active {
+    transform: scale(0.94);
+}
+
+.btn-primary {
+    background-color: #2196f3;
+    color: white;
+
+}
+
+.btn-primary:hover {
+    background-color: #017de2;
+}
+
+.btn-secondary {
+    background-color: #eb00fc;
+    color: white;
+
+}
+
+.btn-secondary:hover {
+    background-color: #c501d3;
+}
+
+.btn-danger {
+    background-color: #f42e02;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #d72901;
+}
+
+.btn-ghost {
+    background-color: transparent;
+}
+
+.btn-outline {
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    color: white;
+}
+
+.btn-outline-primary {
+    outline: 1px solid #017de2;
+    color: #017de2;
+}
+
+.btn-outline-primary:hover {
+    background-color: #017de2;
+}
+
+.btn-outline-secondary {
+    outline: 1px solid #c501d3;
+    color: #c501d3;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #c501d3;
+}
+
+.btn-outline-danger {
+    outline: 1px solid #d72901;
+    color: #d72901;
+}
+
+.btn-outline-danger:hover {
+    background-color: #d72901;
+}

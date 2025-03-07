@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+    /*css rules for screens up to 768px wide */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*css rules for screens up to 768px and 1024px wide */
+}
+
+@media (min-width: 1025px) {
+    /*css rules for screens up to 1024px wide */
+}
+
+body {
+    background-image: url('Image/anime.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    font-family: system-ui;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.established {
+    font-style: italic;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+
+}
+
+h1,
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(8, 8, 8);
+}
+
+.menu {
+    width: 30%;
+    color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(182, 167, 167);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(8, 8, 8);
+
+}
+
+
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(22, 19, 19);
+
+
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.item .flavor {
+    text-align: left;
+    width: 74%;
+}
+
+.item .price {
+    text-align: right;
+    width: 25%;
+    color: rgb(255, 255, 255);
+}
+
+.bottom-line {
+    margin: 30px 0px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(8, 8, 8);
+}
+
+a:hover {
+    color: rgb(243, 96, 96);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    color: rgb(255, 40, 2);
+}
